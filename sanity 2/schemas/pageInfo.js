@@ -24,8 +24,8 @@ export default defineType({
       },
     },
     {
-      name:'backgroundImformation',
-      title:'BackgroundImformation',
+      name:'backgroundInformation',
+      title:'BackgroundInformation',
       type:'string'
     },
     {

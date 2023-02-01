@@ -1,9 +1,10 @@
-import {defineConfig} from 'sanity'
+import { defineConfig as Config } from 'sanity'
+
 import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
-export default defineConfig({
+export default Config({
   name: 'default',
   title: 'portfolio-ts',
 

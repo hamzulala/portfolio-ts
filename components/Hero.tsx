@@ -1,4 +1,4 @@
-import { urlFor } from '@/sanity';
+import { urlFor } from 'sanityExport';
 import Link from 'next/link';
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
@@ -35,7 +35,7 @@ function Hero({ pageInfo }: Props) {
                 <span className='mr-3'>{text}</span>
                 <Cursor cursorColor='#F7AB0A'/>
             </h1>
-        </div>
+        </div>  
         <div className='pt-5'>
             <Link href="#about" ><button className='heroButton'>About</button></Link>
             <Link href="#experience" ><button className='heroButton'>Experience</button></Link>

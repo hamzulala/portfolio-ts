@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Skill from './Skill'
 import {Skill as SkillType} from '../typings'
-import skill from '@/sanity/schemas/skill'
+import skill from '@/schemas/skill'
 
 type Props = {
   skills: SkillType[];

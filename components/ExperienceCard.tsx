@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Experience, Technology } from "../typings"
-import { urlFor } from '@/sanity';
+import { urlFor } from '@/sanityExport';
 
 type Props = {
   experience: Experience;

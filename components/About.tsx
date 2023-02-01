@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { urlFor } from '@/sanity';
+import { urlFor } from 'sanityExport';
 import React from 'react'
 import { PageInfo } from '../typings';
 

@@ -29,7 +29,7 @@ function ContactMe({}: Props) {
     <div className='h-screen flex relative flec-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl z-10'>Contact</h3>
 
-        <div className='flex flex-col space-y-10'>
+        <div className='flex flex-col space-y-10 md:w-1/2 md:h-1/2'>
             {/* Greeting */}
             <h4 className='text-4xl font-semibold text-center'><span>{text}<Cursor cursorColor='#F7AB0A'/></span></h4>
             {/* Info */}
